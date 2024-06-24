@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+body {
+    background: url(img3.jpg);
+    color: white;
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+
+.first {
+    color: cadetblue;
+    font-style: italic;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+
+
+#user, #pass {
+    font-size: 30px;
+    color: orange;
+}
+
+
+.inputs {
+    width: 300px;
+    border: none;
+    outline: none;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 17px;
+}
+
+
+.inputs::placeholder {
+    color: black;
+}
+
+
+.inputs:focus {
+    border: 2px solid green;
+    background-color: orangered;
+    color: #fff;
+}
+
+
+.inputs:focus::selection {
+    background-color: green;
+}
+
+
+#submit {
+    padding: 5px;
+    width: 150px;
+    cursor: pointer;
+    border-radius: 100px;
+    background-color: #3a4552;
+    font-size: 16px;
+    font-weight: 500;
+    color: orange;
+    border: 0;
+    outline: 0;
+}
+
+
+
+.overall{
+    display: flex;
+    justify-content: center;
+    place-items: center;
+    flex-direction: column;
+}
+
+
+.overall h1 {
+    margin-bottom: 20px;
+    color: cadetblue;
+    font-size: 37px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.semi {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+
+.semi a:hover {
+    color: white;
+}
+
+
+.logout {
+    margin-top: 20px;
+    margin-left: -50px;
+    padding: 10px;
+    width: 155px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #3a4552;
+    color: white;
+    border: 10px;
+    border-radius: 100px;
+}
